@@ -7,15 +7,22 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     <script src="script.js"></script>
- <div id="page-wrapper">
+<link
+  rel="stylesheet"
+  href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+  integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+  crossorigin="anonymous"
+/>
+<div id="page-wrapper">
   <header id="header">
-
-   <div class="logo">
+    <div class="logo">
       <img
         id="header-img"
-        src="https://s3.amazonaws.com/freecodecamp/original_trombones.png"
-        alt="original trombones logo"
+        src="https://images.vexels.com/media/users/3/151636/isolated/preview/972650c061f82199d1f7dc14e96607bb-circle-watch-stroke-icon-by-vexels.png"
+        alt="WatchX Logo"
+        style="width:50px;height:50px;"
       />
     </div>
 
@@ -28,11 +35,112 @@
     </nav>
   </header>
 
+  <div class="container"></div>
 
- </div>
+  <section id="hero">
+    <h2>Premium Watches</h2>
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+      <input
+        name="email"
+        id="email"
+        type="email"
+        placeholder="Enter your email address"
+        required
+      />
+      <input id="submit" type="submit" value="Get Started" class="btn" />
+    </form>
+  </section>
 
-
-    </header>
-</html>
+  <div class="container">
+    <section id="features">
+      <div class="grid">
+        <div class="icon"><i class="fa fa-3x fa-fire"></i></div>
+        <div class="desc">
+          <h2>Premium Materials</h2>
+          <p>
+            Our trombones use the shiniest brass which is sourced locally. This
+            will increase the longevity of your purchase.
+          </p>
+        </div>
+      </div>
+      <div class="grid">
+        <div class="icon"><i class="fa fa-3x fa-truck"></i></div>
+        <div class="desc">
+          <h2>Fast Shipping</h2>
+          <p>
+            We make sure you recieve your trombone as soon as we have finished
+            making it. We also provide free returns if you are not satisfied.
+          </p>
+        </div>
+      </div>
+      <div class="grid">
+        <div class="icon">
+          <i class="fa fa-3x fa-battery-full" aria-hidden="true"></i>
+        </div>
+        <div class="desc">
+          <h2>Quality Assurance</h2>
+          <p>
+            For every purchase you make, we will ensure there are no damages or
+            faults and we will check and test the pitch of your instrument.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="how-it-works" >
+      <iframe
+        id="video"
+        height="315"
+        src="https://www.youtube-nocookie.com/embed/-_z-94JHiTs"
+        frameborder="0"
+        allowfullscreen
+      ></iframe>
+    </section>
+    <section id="pricing">
+      <div class="product" id="tenor">
+        <div class="level">Vintage Model</div>
+        <h2>$600</h2>
+        <ol>
+          <li>Leather Strip.</li>
+          <li>Metalic Body</li>
+          <li>Unique Design.</li>
+         
+        </ol>
+        <button class="btn">Select</button>
+      </div>
+      <div class="product" id="bass">
+        <div class="level">Classic Model</div>
+        <h2>$900</h2>
+        <ol>
+          <li>Leather Strip.</li>
+          <li>Metalic Body</li>
+          <li>Unique Design.</li>
+          <li>Mutli Color Designs</li>
+        </ol>
+        <button class="btn">Select</button>
+      </div>
+      <div class="product" id="valve">
+        <div class="level">Smart Model</div>
+        <h2>$1200</h2>
+        <ol>
+          <li>Leather Strip.</li>
+          <li>Metalic Body</li>
+          <li>Unique Design.</li>
+           <li>Integration with Smartphones</li>
+          <li>Tracker</li>
+          <li>Heart Beat</li>
+        </ol>
+        <button class="btn">Select</button>
+      </div>
+    </section>
+    <footer>
+      <ul>
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <span>Copyright 2021, WatchX Pakistan</span>
+    </footer>
+  </div>
+</div>
 
  </body>
